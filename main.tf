@@ -1,7 +1,7 @@
 provider "aws" {
 region = "us-east-1"
-ACCESS_KEY = "tfu"
-SECRET_KEY = "wUDp[92!"
+AWS_ACCESS_KEY_ID     = "tfu"
+AWS_SECRET_ACCESS_KEY = "wUDp[92!"
 }
 
 resource "aws_instance" "one" {
