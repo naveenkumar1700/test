@@ -1,7 +1,7 @@
 provider "aws" {
 region = "us-east-1"
-ACCESS_KEY = 'tfu'
-SECRET_KEY = 'wUDp[92!'
+ACCESS_KEY = "tfu"
+SECRET_KEY = "wUDp[92!"
 }
 
 resource "aws_instance" "one" {
